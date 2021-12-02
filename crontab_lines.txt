@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+PATH=/home/MYUSERNAME/.local/bin:/home/MYUSERNAME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+* * * * * /home/MYUSERNAME/bin/razercharge.sh >> /home/MYUSERNAME/logs/mycronscripts.log
