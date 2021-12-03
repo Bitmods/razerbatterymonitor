@@ -14,10 +14,12 @@ The lookup table hex values corresponds each element with a colour, which repres
 ## Default Behaviour
 I Have set the default behavior as follows, easily adjustable to whatever you want.
 
-Charging       - Brightness 100%   Dual colour breathing between % colour and %+10 colour.
-Full Charge    - Brightness 100%   Static Green
-Normal use     - Brightness 50%    Static colour of battery %
-Low battery    - Brightness 5%     Dual colour breathing between maroon/purple
+| State         | Brightness    | Behaviour                                             |
+|---------------|---------------|-------------------------------------------------------|
+| Charging      | 100%          | Dual colour breathing between % colour and %+10 colour|
+| Full Charge   | 100%          | Static Green                                          |
+| Normal use    | 50%           | Static colour of battery %                            |
+| Low battery   | 5%            | Dual colour breathing between maroon/purple           |
 
 When fully charged but still docked, the colour stops 'breathing' and becomes static.
 
