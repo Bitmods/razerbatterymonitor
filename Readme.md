@@ -11,6 +11,17 @@ The lookup table hex values corresponds each element with a colour, which repres
 
 <img src="colour_gradient.png" alt="drawing" height="200"/>
 
+## Default Behaviour
+I Have set the default behavior as follows, easily adjustable to whatever you want.
+
+Charging       - Brightness 100%   Dual colour breathing between % colour and %+10 colour.
+Full Charge    - Brightness 100%   Static Green
+Normal use     - Brightness 50%    Static colour of battery %
+Low battery    - Brightness 5%     Dual colour breathing between maroon/purple
+
+When fully charged but still docked, the colour stops 'breathing' and becomes static.
+
+The low battery uses weird colours just to distinguish between low battery in use, and low battery charging. Ideally I would have liked intermitint fast flashes or similar but i dont believe thats possible with the current API.
 
 
 
