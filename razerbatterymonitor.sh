@@ -9,9 +9,9 @@
 #SHELL=/bin/bash
 #PATH=/home/MYUSERNAME/.local/bin:/home/MYUSERNAME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 #DISPLAY=:1
-PID=$(pgrep -o gnome-session)
-export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
-XAUTHORITY=/home/MYUSERNAME/.Xauthority
+#PID=$(pgrep -o gnome-session)
+#export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-)
+#XAUTHORITY=/home/MYUSERNAME/.Xauthority
 
 
 #Select which devices to poll for battery status. [0] returns all my razer devices (basilisk mouse + dock)
